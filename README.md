@@ -11,7 +11,6 @@ Any process in the blocked queue can be sent back to the ready queue and is assi
 The only events in which time elapses is when a process is sent to the CPU (1 time unit), a process is blocked (1 time unit), there is a context switch (2 time units) or the **execute time step** button is pressed (1 time unit) which executes a single burst for all processes in the running queue.
 
 # Example 
-
 The entire GUI has six sections. The yellow message box, that gives the user usefull prompts on how to proceed. The blue **Status Box** that displays how many CPU resources are still available and how much time has elapsed}
 
 ![alt text](https://github.com/mmicr001/ProcessDispatcher/blob/master/report/ss1.JPG )
